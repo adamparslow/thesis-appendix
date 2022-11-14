@@ -1,0 +1,17 @@
+{
+  "name": "outage-processing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "process.js",
+  "scripts": {
+    "analyse": "node comparison.js",
+    "process": "node processData.js",
+    "view": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csvtojson": "^2.0.10",
+    "express": "^4.18.1"
+  }
+}
